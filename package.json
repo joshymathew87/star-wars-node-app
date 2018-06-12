@@ -4,7 +4,8 @@
   "description": "Movie app for star wars fans",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Joshy Mathew",
   "license": "ISC",
