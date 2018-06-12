@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <% for(var i=0 ; i<movies.length; i++) { %>
+                    <a class="dropdown-item" href="/star_wars_episode/<%= movies[i].episode_number %>"><%= movies[i].title %></a>
+            <% } %>
+        </div>
+        </li>
+    </ul>
+</nav>
